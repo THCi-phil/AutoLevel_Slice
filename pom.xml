@@ -12,20 +12,20 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.mycompany</groupId>        <!-- FIXME: Your organization groupId here -->
-	<artifactId>Process_Pixels</artifactId> <!-- FIXME: Your project artifactId here   -->
-	<version>0.1.0-SNAPSHOT</version>
+	<groupId>com.pTHCi</groupId>
+	<artifactId>AutoLevel_Slice</artifactId>
+	<version>0.1.0-BETA_RELEASE_CANDIDATE</version>
 
-	<name>Process Pixels</name>                                                   <!-- FIXME: Your project name here          -->
-	<description>A Maven project implementing an ImageJ 1.x plugin.</description> <!-- FIXME: Your project description here   -->
-	<url>https://mycompany.com/imagej/process-pixels/</url>                       <!-- FIXME: Your project website here       -->
-	<inceptionYear>2012</inceptionYear>                                           <!-- FIXME: Your project starting year here -->
+	<name>AutoLevel Slice</name>
+	<description>Maven ImageJ 1.x plugin. AutoLevel each slice of an 8,16,32-bit greyscale, or colour image</description>
+	<url>https://pthci.com/imagej/AutoLevel_Slice/</url>
+	<inceptionYear>2022</inceptionYear>
 	<organization>
-		<name>My Company</name>           <!-- FIXME: Your organization name here    -->
-		<url>https://mycompany.com/</url> <!-- FIXME: Your organization website here -->
+		<name>TH Collaborative Innovation</name>
+		<url>https://pthci.com/</url>
 	</organization>
 	<licenses>
-		<license>                         <!-- FIXME: Your license here -->
+		<license>
 			<name>CC0</name>
 			<url>https://creativecommons.org/publicdomain/zero/1.0/</url>
 			<distribution>repo</distribution>
@@ -33,11 +33,10 @@
 	</licenses>
 
 	<developers>
-		<!-- See https://imagej.net/contribute/governance#scijava-team-roles -->
 		<developer>
-			<id>octocat</id>                                          <!-- FIXME: Your GitHub handle here -->
-			<name>Noma Onomatopoeia</name>                            <!-- FIXME: Your name here          -->
-			<url>https://mycompany.com/people/noma-onomatopoeia</url> <!-- FIXME: Your website here       -->
+			<id>THCi-phil</id>
+			<name>Phil Threlfall-Holmes</name>
+			<url>https://pthci.com/people/phil_threlfall-holmes</url>
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -63,24 +62,24 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:https://github.com/imagej/example-legacy-plugin</connection>
-		<developerConnection>scm:git:git@github.com:imagej/example-legacy-plugin</developerConnection>
+		<connection>scm:git:https://github.com/THCi-phil/AutoLevel_Slice</connection>
+		<developerConnection>scm:git:git@github.com:THCi-phil/AutoLevel_Slice</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/imagej/example-legacy-plugin</url>
+		<url>https://github.com/THCi-phil/AutoLevel_Slice</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/imagej/example-legacy-plugin/issues</url>
+		<url>https://github.com/THCi-phil/AutoLevel_Slice/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
 	</ciManagement>
 
 	<properties>
-		<package-name>com.mycompany.imagej</package-name>                   <!-- FIXME: Your project package prefix here -->
-		<main-class>com.mycompany.imagej.Process_Pixels</main-class>        <!-- FIXME: Your project main class here, or delete for none -->
-		<license.licenseName>cc0</license.licenseName>                      <!-- FIXME: Your license-maven-plugin license code here -->
-		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners> <!-- FIXME: Your organization legal entity name here -->
+		<package-name>com.pTHCi.imagej</package-name>
+		<main-class>com.pthci.imagej.AutoLevel_Slice</main-class>
+		<license.licenseName>cc0</license.licenseName>
+		<license.copyrightOwners>TH Collaborative Innovation</license.copyrightOwners>
 	</properties>
 
 	<dependencies>
